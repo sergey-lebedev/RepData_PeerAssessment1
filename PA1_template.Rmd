@@ -70,5 +70,4 @@ par(mfrow=c(1, 2))
 with(weekdays, plot(strptime(interval, '%H%M'), steps, type='l', xlab='Time', ylab='Number of steps in 5-minute interval', main='Average weekdays activity pattern'))
 with(weekends, plot(strptime(interval, '%H%M'), steps, type='l', xlab='Time', ylab='Number of steps in 5-minute interval', main='Average weekends activity pattern'))
 #title('Differences in activity patterns between weekdays and weekends')
-
 ```
